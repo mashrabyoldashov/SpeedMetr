@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(253, 230, 200);
+}
+
+
+.box {
+    background-color: rgb(253, 221, 179);
+    border-radius: 15px;
+}
+
+.input-1{
+    padding: 5px 0;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .list{
+        flex-direction: column;
+    }
+
+    .desc{
+        margin-bottom: 10px !important;
+    }
+    .input-1{
+        margin-bottom: 10px !important;
+    }
+}
