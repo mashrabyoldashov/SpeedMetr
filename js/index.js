@@ -39,6 +39,17 @@ elBtnCheck.addEventListener("click", () => {
     } else {
         elResult3.textContent = `${elHour3}` + " soat " + `${elMinut3}` + " minut";
     }
+
+    if (elInputNumber.value === "") {
+        elResult.textContent = "Raqam kiriting !!!";
+        elResult.style.color = "red";
+        elResult1.textContent = "Raqam kiriting !!!";
+        elResult1.style.color = "red";
+        elResult2.textContent = "Raqam kiriting !!!";
+        elResult2.style.color = "red";
+        elResult3.textContent = "Raqam kiriting !!!";
+        elResult3.style.color = "red";
+    }
 });
 
 
